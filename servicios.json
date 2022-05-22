@@ -1,0 +1,54 @@
+{
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Corte de Pelo Adulto",
+            "precio": 700
+        },
+        {
+            "id": 2,
+            "nombre": "Corte de Pelo Niño",
+            "precio": 600
+        },
+        {
+            "id": 3,
+            "nombre": "Corte de Pelo Mujer",
+            "precio": 1000
+        },
+        {
+            "id": 4,
+            "nombre": "Corte de Barba",
+            "precio": 500
+        },
+        {
+            "id": 5,
+            "nombre": "Peinado Hombre",
+            "precio": 450
+        },
+        {
+            "id": 6,
+            "nombre": "Peinado Mujer",
+            "precio": 650
+        },
+        {
+            "id": 7,
+            "nombre": "Tinte",
+            "precio": 750
+        },
+        {
+            "id": 8,
+            "nombre": "Uñas",
+            "precio": 1000
+        },
+        {
+            "id": 9,
+            "nombre": "Lavado de Pelo",
+            "precio": 400
+        },
+        {
+            "id": 10,
+            "nombre" : "Tratamiento Capilar",
+            "precio": 1200
+        }
+    ]
+}

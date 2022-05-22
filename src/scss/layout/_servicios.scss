@@ -1,0 +1,42 @@
+.listado-servicios {
+    
+    @include tablet {
+        @include grid(2, 2rem);
+    }
+    
+    .servicio {
+        background-color: $blanco;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+
+        @include tablet {
+            margin-bottom: 0;
+        }
+
+        p {
+            margin: 0 0 $separacion/4 0;
+        }
+        
+        .nombre-servicio {
+            color: $negro;
+        }
+
+        .precio-servicio {
+            color: $azul;
+            margin: 0;
+            font-weight: $bold;
+            font-size: 3rem;
+        }
+
+        &.seleccionado {        // aplica a los elementos con la clase "servicio seleccionado"
+            background-color: $azul;
+            
+            p {
+                color: $blanco;
+            }
+        }
+
+    }
+}

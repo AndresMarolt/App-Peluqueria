@@ -1,0 +1,35 @@
+body {
+    background-color: $negro;
+}
+
+.contenedor-estetica {
+    @include tablet {
+        height: 100vh;
+        @include grid(2, $separacion/2);
+    }
+    .imagen {
+        height: 30rem;
+        background-image: url(../../../build/img/1.webp);
+        background-size: cover;
+        background-position: center center;
+        @include tablet {
+            height: auto;
+        }
+    }
+}
+
+.app {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: $separacion/2;
+
+    .seccion {
+        display: none;  // Oculta los elementos de esta clase
+        margin-top: $separacion/3;
+        
+    }
+}
+
+.mostrar-seccion {
+    display: block!important;
+}
